@@ -52,7 +52,7 @@
             right: 10px;
         }
 
-        body{
+        body {
             background-image: url('homepanel1.png');
             background-size: cover;
             background-repeat: no-repeat;
@@ -60,8 +60,10 @@
         }
 
         .team-member img {
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
         }
 
         .bg-white.bg-opacity-75 {
@@ -88,12 +90,12 @@
 </head>
 <body class="bg-gray-500 text-gray-900 font-sans leading-relaxed tracking-wide">
 
-<div class="container mx-auto p-8 slide1bg">
+<div class="container mx-auto p-4 md:p-8">
     <!-- Slide 1 -->
     <div class="slide active fade-in" id="slide-1">
-        <div class="apple-gradient p-10 rounded-lg shadow-lg flex flex-col items-center">
-            <h1 class="text-4xl font-bold text-gray-800">InnoDrive - Gestor de Frota</h1>
-            <p class="text-xl mt-2 text-gray-600">TPSIP_06.23</p>
+        <div class="apple-gradient p-4 md:p-10 rounded-lg shadow-lg flex flex-col items-center">
+            <h1 class="text-2xl md:text-4xl font-bold text-gray-800">InnoDrive - Gestor de Frota</h1>
+            <p class="text-lg md:text-xl mt-2 text-gray-600">TPSIP_06.23</p>
             <p class="mt-4 text-gray-600">Data: 30-07-2024</p>
         </div>
     </div>
@@ -101,9 +103,9 @@
 
     <!-- Slide 2 -->
     <div class="slide fade-in" id="slide-2">
-        <div class="text-center apple-gradient p-10 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold text-gray-800">Equipa de Desenvolvimento</h2>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mt-6">
+        <div class="text-center apple-gradient p-4 md:p-10 rounded-lg shadow-lg">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Equipa de Desenvolvimento</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-6">
                 <!-- Diogo Sousa -->
                 <div class="text-center team-member">
                     <img src="https://avatars.githubusercontent.com/u/139590885?v=4" alt="Diogo Sousa" class="rounded-full mx-auto mb-2 shadow-lg">
@@ -138,18 +140,17 @@
         </div>
     </div>
 
-
     <!-- Slide 3 -->
     <div class="slide fade-in" id="slide-3">
-        <div class="text-center apple-gradient p-10 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">Introdução e Objetivos</h2>
-            <div class="bg-white bg-opacity-75 p-8 rounded-lg shadow-md">
+        <div class="text-center apple-gradient p-4 md:p-10 rounded-lg shadow-lg">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Introdução e Objetivos</h2>
+            <div class="bg-white bg-opacity-75 p-4 md:p-8 rounded-lg shadow-md">
                 <div class="mb-8">
                     <div class="flex items-center mb-4">
                         <svg class="w-6 h-6 text-gray-800 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v4a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clip-rule="evenodd"></path>
                         </svg>
-                        <span class="font-semibold text-2xl text-gray-800">Introdução:</span>
+                        <span class="font-semibold text-xl md:text-2xl text-gray-800">Introdução:</span>
                     </div>
                     <p class="text-left text-gray-800 leading-relaxed">
                         Desenvolvimento de uma aplicação de gestão de frota para uma empresa de soldadura.<br>
@@ -162,7 +163,7 @@
                         <svg class="w-6 h-6 text-gray-800 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v4a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clip-rule="evenodd"></path>
                         </svg>
-                        <span class="font-semibold text-2xl text-gray-800">Objetivos:</span>
+                        <span class="font-semibold text-xl md:text-2xl text-gray-800">Objetivos:</span>
                     </div>
                     <p class="text-left text-gray-800 leading-relaxed">
                         Manter o controlo eficiente dos veículos, funcionários e viagens atribuídas às obras.<br>
@@ -173,12 +174,11 @@
         </div>
     </div>
 
-
     <!-- Slide 4 -->
     <div class="slide fade-in" id="slide-4">
-        <div class="text-center apple-gradient p-10 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">Funcionalidades Principais</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-6">
+        <div class="text-center apple-gradient p-4 md:p-10 rounded-lg shadow-lg">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Funcionalidades Principais</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mt-6">
                 <!-- Gestão de veículos -->
                 <div class="text-center bg-white bg-opacity-75 p-6 rounded-lg shadow-md">
                     <svg class="w-16 h-16 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" xml:space="preserve"><path fill="#C1C1C1" d="M136.275 127.89c0 11.113-9.01 20.124-20.124 20.124-11.113 0-20.124-9.01-20.124-20.124V87.643c0-11.113 9.01-20.124 20.124-20.124 11.113 0 20.124 9.01 20.124 20.124v40.247zM307.326 127.89c0 11.113-9.01 20.124-20.124 20.124-11.113 0-20.124-9.01-20.124-20.124V87.643c0-11.113 9.01-20.124 20.124-20.124 11.113 0 20.124 9.01 20.124 20.124v40.247zM307.326 309.003c0 11.113-9.01 20.124-20.124 20.124-11.113 0-20.124-9.01-20.124-20.124v-40.247c0-11.113 9.01-20.124 20.124-20.124 11.113 0 20.124 9.01 20.124 20.124v40.247z"/><path fill="#D1D1D1" d="M280.495 127.89V87.643c0-8.758 5.606-16.188 13.416-18.954a20.068 20.068 0 0 0-6.708-1.169c-11.113 0-20.124 9.01-20.124 20.124v40.247c0 11.113 9.01 20.124 20.124 20.124 2.355 0 4.607-.426 6.708-1.169-7.811-2.767-13.416-10.198-13.416-18.956zM280.495 309.003v-40.247c0-8.758 5.606-16.188 13.416-18.954a20.068 20.068 0 0 0-6.708-1.169c-11.113 0-20.124 9.01-20.124 20.124v40.247c0 11.113 9.01 20.124 20.124 20.124 2.355 0 4.607-.426 6.708-1.169-7.811-2.767-13.416-10.198-13.416-18.956z"/><path fill="#C1C1C1" d="M139.629 309.003c0 11.113-9.01 20.124-20.124 20.124-11.113 0-20.124-9.01-20.124-20.124v-40.247c0-11.113 9.01-20.124 20.124-20.124 11.113 0 20.124 9.01 20.124 20.124v40.247z"/><path fill="#D1D1D1" d="M112.798 309.003v-40.247c0-8.758 5.606-16.188 13.416-18.954a20.068 20.068 0 0 0-6.708-1.169c-11.113 0-20.124 9.01-20.124 20.124v40.247c0 11.113 9.01 20.124 20.124 20.124 2.355 0 4.607-.426 6.708-1.169-7.811-2.767-13.416-10.198-13.416-18.956zM109.444 127.89V87.643c0-8.758 5.606-16.188 13.416-18.954a20.068 20.068 0 0 0-6.708-1.169c-11.113 0-20.124 9.01-20.124 20.124v40.247c0 11.113 9.01 20.124 20.124 20.124 2.355 0 4.607-.426 6.708-1.169-7.811-2.767-13.416-10.198-13.416-18.956z"/><path fill="#FFDA88" d="M156.399 97.705h30.185v13.416h-30.185z"/><path fill="#E3E3E3" d="M136.275 90.997h20.124v26.831h-20.124z"/><path fill="#FFDA88" d="M220.124 97.705h30.185v13.416h-30.185z"/><path fill="#E3E3E3" d="M250.309 90.997h16.77v26.831h-16.77z"/><path fill="#FE6F80" d="M220.124 117.558a6.978 6.978 0 0 1-6.978 6.978h-19.583a6.978 6.978 0 0 1-6.978-6.978V94.621a6.978 6.978 0 0 1 6.978-6.978h19.583a6.978 6.978 0 0 1 6.978 6.978v22.937z"/><path fill="#FFDA88" d="M156.399 278.818h26.831v16.77h-26.831z"/><path fill="#E3E3E3" d="M139.629 275.464h16.77v23.478h-16.77z"/><path fill="#FFDA88" d="M223.478 278.818h26.831v16.77h-26.831z"/><path fill="#E3E3E3" d="M250.309 275.464h16.77v23.478h-16.77z"/><path fill="#FE6F80" d="M223.478 298.673a6.978 6.978 0 0 1-6.978 6.977h-26.291a6.977 6.977 0 0 1-6.978-6.977v-22.94a6.978 6.978 0 0 1 6.978-6.977H216.5a6.977 6.977 0 0 1 6.978 6.977v22.94z"/><path fill="#FFDA88" d="M192.175 255.34h23.478v13.416h-23.478zM198.045 124.536h10.9V255.34h-10.9z"/><path fill="#E3E3E3" d="M196.507 280.337h10.9v17.084h-10.9z"/><path fill="#FFA1AA" d="M196.646 117.558V94.621a6.978 6.978 0 0 1 6.978-6.978h-10.062a6.978 6.978 0 0 0-6.978 6.978v22.937a6.978 6.978 0 0 0 6.978 6.978h10.062a6.978 6.978 0 0 1-6.978-6.978zM193.716 298.671v-22.937a6.978 6.978 0 0 1 6.978-6.978h-10.062a6.98 6.98 0 0 0-6.978 6.978v22.937a6.978 6.978 0 0 0 6.978 6.978h10.062a6.978 6.978 0 0 1-6.978-6.978z"/><path fill="#FFE2A9" d="M198.045 124.536h5.309V255.34h-5.309zM192.175 255.34h11.179v13.416h-11.179z"/><g><path fill="#161616" d="M114.475 154.722c-13.871 0-25.155-11.284-25.155-25.155V89.32c0-13.871 11.284-25.155 25.155-25.155S139.63 75.449 139.63 89.32v40.247c-.001 13.871-11.284 25.155-25.155 25.155zm0-80.495c-8.323 0-15.093 6.77-15.093 15.093v40.247c0 8.323 6.77 15.093 15.093 15.093s15.093-6.77 15.093-15.093V89.32c-.001-8.323-6.771-15.093-15.093-15.093zM285.526 154.722c-13.871 0-25.155-11.284-25.155-25.155V89.32c0-13.871 11.283-25.155 25.155-25.155 13.871 0 25.154 11.284 25.154 25.155v40.247c0 13.871-11.283 25.155-25.154 25.155zm0-80.495c-8.323 0-15.093 6.77-15.093 15.093v40.247c0 8.323 6.77 15.093 15.093 15.093s15.093-6.77 15.093-15.093V89.32c-.001-8.323-6.771-15.093-15.093-15.093zM285.526 335.835c-13.871 0-25.155-11.284-25.155-25.154v-40.247c0-13.871 11.283-25.155 25.155-25.155 13.871 0 25.154 11.284 25.154 25.155v40.247c0 13.87-11.283 25.154-25.154 25.154zm0-80.495c-8.323 0-15.093 6.77-15.093 15.093v40.247c0 8.323 6.77 15.093 15.093 15.093s15.093-6.77 15.093-15.093v-40.247c-.001-8.323-6.771-15.093-15.093-15.093zM117.828 335.835c-13.871 0-25.154-11.284-25.154-25.154v-40.247c0-13.871 11.283-25.155 25.154-25.155s25.155 11.284 25.155 25.155v40.247c0 13.87-11.284 25.154-25.155 25.154zm0-80.495c-8.323 0-15.093 6.77-15.093 15.093v40.247c0 8.323 6.77 15.093 15.093 15.093s15.093-6.77 15.093-15.093v-40.247c0-8.323-6.77-15.093-15.093-15.093zM184.907 117.828h-30.186a5.03 5.03 0 0 1-5.031-5.031V99.382a5.03 5.03 0 0 1 5.031-5.031h30.186a5.03 5.03 0 0 1 5.031 5.031v13.416a5.03 5.03 0 0 1-5.031 5.03zm-25.154-10.061h20.124v-3.354h-20.124v3.354z"/><path fill="#161616" d="M154.722 124.536h-20.124a5.03 5.03 0 0 1-5.031-5.031V92.674a5.03 5.03 0 0 1 5.031-5.031h20.124a5.03 5.03 0 0 1 5.031 5.031v26.831a5.03 5.03 0 0 1-5.031 5.031zm-15.093-10.061h10.062v-16.77h-10.062v16.77zM248.632 117.828h-30.185a5.03 5.03 0 0 1-5.031-5.031V99.382a5.03 5.03 0 0 1 5.031-5.031h30.185a5.03 5.03 0 0 1 5.031 5.031v13.416a5.03 5.03 0 0 1-5.031 5.03zm-25.154-10.061h20.124v-3.354h-20.124v3.354z"/><path fill="#161616" d="M265.402 124.536h-16.77a5.03 5.03 0 0 1-5.031-5.031V92.674a5.03 5.03 0 0 1 5.031-5.031h16.77a5.03 5.03 0 0 1 5.031 5.031v26.831a5.03 5.03 0 0 1-5.031 5.031zm-11.739-10.061h6.708v-16.77h-6.708v16.77zM211.469 131.244h-19.583c-6.621 0-12.009-5.388-12.009-12.009V96.298c0-6.621 5.388-12.009 12.009-12.009h19.583c6.621 0 12.009 5.388 12.009 12.009v22.937c0 6.621-5.388 12.009-12.009 12.009zm-19.584-36.893a1.949 1.949 0 0 0-1.947 1.947v22.937c0 1.074.873 1.947 1.947 1.947h19.583a1.949 1.949 0 0 0 1.947-1.947V96.298a1.949 1.949 0 0 0-1.947-1.947h-19.583zM181.553 302.295h-26.832a5.03 5.03 0 0 1-5.031-5.031v-16.77a5.03 5.03 0 0 1 5.031-5.031h26.832a5.03 5.03 0 0 1 5.031 5.031v16.77a5.03 5.03 0 0 1-5.031 5.031zm-21.8-10.062h16.77v-6.708h-16.77v6.708z"/><path fill="#161616" d="M154.722 305.649h-16.77a5.03 5.03 0 0 1-5.031-5.031V277.14a5.03 5.03 0 0 1 5.031-5.031h16.77a5.03 5.03 0 0 1 5.031 5.031v23.478a5.03 5.03 0 0 1-5.031 5.031zm-11.739-10.062h6.708v-13.416h-6.708v13.416zM248.632 302.295h-26.831a5.03 5.03 0 0 1-5.031-5.031v-16.77a5.03 5.03 0 0 1 5.031-5.031h26.831a5.03 5.03 0 0 1 5.031 5.031v16.77a5.03 5.03 0 0 1-5.031 5.031zm-21.8-10.062h16.77v-6.708h-16.77v6.708z"/><path fill="#161616" d="M265.402 305.649h-16.77a5.03 5.03 0 0 1-5.031-5.031V277.14a5.03 5.03 0 0 1 5.031-5.031h16.77a5.03 5.03 0 0 1 5.031 5.031v23.478a5.03 5.03 0 0 1-5.031 5.031zm-11.739-10.062h6.708v-13.416h-6.708v13.416zM214.822 312.357h-26.291c-6.621 0-12.009-5.386-12.009-12.007v-22.94c0-6.621 5.388-12.007 12.009-12.007h26.291c6.621 0 12.009 5.386 12.009 12.007v22.94c.001 6.621-5.387 12.007-12.009 12.007zm-26.291-36.893a1.948 1.948 0 0 0-1.947 1.945v22.94c0 1.073.873 1.945 1.947 1.945h26.291a1.948 1.948 0 0 0 1.947-1.945v-22.94a1.948 1.948 0 0 0-1.947-1.945h-26.291z"/><path fill="#161616" d="M215.653 273.787h-27.392a5.03 5.03 0 0 1-5.031-5.031V255.34a5.03 5.03 0 0 1 5.031-5.031h27.392a5.03 5.03 0 0 1 5.031 5.031v13.416a5.03 5.03 0 0 1-5.031 5.031zm-22.361-10.062h17.33v-3.354h-17.33v3.354z"/><path fill="#161616" d="M208.945 260.371h-14.534a5.03 5.03 0 0 1-5.031-5.031V126.213a5.03 5.03 0 0 1 5.031-5.031h14.534a5.03 5.03 0 0 1 5.031 5.031V255.34a5.03 5.03 0 0 1-5.031 5.031zm-9.503-10.062h4.472V131.244h-4.472v119.065zM196.507 280.337h10.9v17.084h-10.9z"/></g></svg>
@@ -230,12 +230,10 @@
         </div>
     </div>
 
-
-
     <!-- Slide 5 -->
     <div class="slide fade-in" id="slide-5">
-        <div class="text-center apple-gradient p-10 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold text-gray-800">Tecnologias Utilizadas e Conclusão</h2>
+        <div class="text-center apple-gradient p-4 md:p-10 rounded-lg shadow-lg">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Tecnologias Utilizadas e Conclusão</h2>
             <div class="mt-4 text-left text-gray-800">
                 <p><strong>Tecnologias:</strong> Laravel, PHP, HTML, CSS, JavaScript, Java, Git, GitHub, PostgreSQL, Jira, AWS, Android Studio</p>
                 <p class="mt-4"><strong>Conclusão:</strong></p>
